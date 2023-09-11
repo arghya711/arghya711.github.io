@@ -18,37 +18,42 @@
             color: white;
             transition: all 0.4s ease-in-out;
         }
-        .mycard:hover{
-            box-shadow: 0px 0px 40px  rgb(100, 100, 100);
+
+        .mycard:hover {
+            box-shadow: 0px 0px 40px rgb(100, 100, 100);
             transform: scale(1.01);
         }
-        .form-control::placeholder{
-    color: rgba(255, 255, 255, 0.5);
-}
-.form-control{
-    color: white;
-}
-.form-control:focus{
-    color: white;
-}
-.side-header{
-    color: rgb(253, 253, 253);
-}
-.side-header:hover{
-    color: rgb(154, 154, 154);
-}
 
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .form-control {
+            color: white;
+        }
+
+        .form-control:focus {
+            color: white;
+        }
+
+        .side-header {
+            color: rgb(253, 253, 253);
+        }
+
+        .side-header:hover {
+            color: rgb(154, 154, 154);
+        }
     </style>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
     <nav class="navbar navbar-expand-md fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand side-header " style="margin-left: 0.5rem;" href="home.html">ARGHYASHREE</a>
-            <button class="navbar-toggler bg-transparent text-dark border-secondary" type="button" data-bs-toggle="collapse"
+            <a class="navbar-brand h6 side-header " style="margin-left: 0.5rem; margin-top: 0.3rem;" href="index.html">ARGHYASHREE</a>
+            <button class="navbar-toggler bg-transparent text-dark border-white" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation" style="padding: 0rem;">
-                <span class="navbar-toggler-icon p-3 m-1 bg-secondary rounded"></span>
+                <span class="navbar-toggler-icon p-3 m-1 bg-white rounded"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end p-2" id="navbarSupportedContent">
 
@@ -60,7 +65,7 @@
                         <a href="#aboutme" class="nav-link text-text">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="home.html">Projects</a>
+                        <a class="nav-link" href="index.html">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#more_about">More</a>
@@ -74,23 +79,27 @@
     </nav>
     <div id="mynav" type="hidden"></div>
     <div class="container-fluid text-center text-white mycontainer">
-        <div class="display-3">"Hi there, I'm <span
-                style="color: rgb(87, 133, 152); font-weight: 400;">Arghyashree</span>,</div>
-        <p class="h4 text-secondary"> A
+        <div class="display-3">"Hi there, I'm
+            <span style="color: rgb(157, 213, 238); font-weight: 400;">Arghyashree
+            </span>
+            ,
+        </div>
+        <p class="h4 text-white mt-3"> A
             computer science student with a passion for exploring the
             creative dimensions of web design."</p>
-        <br><button class="Btn btn-dark mt-5 py-3  rounded-4 px-5"><a class="text-decoration-none text-white"
-                href="Arghya_031.pdf">Download Resume</a></button>
-
-        <div id="aboutme" class="card bg-transparent border-transparent border-0 text-white aboutme">
+        <br>
+        <button class="Btn btn-outline-light mt-5 py-3  rounded-4 px-4">
+            <a class="text-decoration-none text-white" href="logo/Arghya_031.pdf">Download Resume</a>
+        </button>
+        <div id="aboutme" class="card bg-transparent border-transparent border-0 p-0 text-white aboutme">
             <div align="center" class="bg-dark card-header border-0">
                 <div class="card-title">
                     <h2>About Me</h2>
                 </div>
                 <hr width="15%">
             </div>
-            <div class="card-body mt-4">
-                <img style="width: 15rem;" src="myimage1.jpg" alt=""
+            <div class="card-body p-0 mt-4">
+                <img style="width: 15rem;" src="logo/myimage1.jpg" alt=""
                     class="card-img-top img-fluid img-thumbnail bg-transparent">
                 <div class="card-text mt-5">I'm a fourth-year computer science student at Mangalore Institute of
                     Technology and
@@ -108,33 +117,37 @@
                 </div>
             </div>
             <div class="card-footer mt-3 bg-dark border-0">
-                <a href="https://www.facebook.com/arghya.dprasad/" class="link"><svg xmlns="http://www.w3.org/2000/svg"
-                        width="25" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <a href="https://www.facebook.com/arghya.dprasad/" class="link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-facebook" viewBox="0 0 16 16">
                         <path
                             d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                    </svg></a>
-                <a href="https://github.com/arghya711" class="link"><svg xmlns="http://www.w3.org/2000/svg" width="25"
-                        height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    </svg>
+                </a>
+                <a href="https://github.com/arghya711" class="link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-github" viewBox="0 0 16 16">
                         <path
                             d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                    </svg></a>
-                <a href="https://www.linkedin.com/in/arghyashree-jain-025692256/" class="link"><svg
-                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/arghyashree-jain-025692256/" class="link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
                         class="bi bi-linkedin" viewBox="0 0 16 16">
                         <path
                             d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                    </svg></a>
+                    </svg>
+                </a>
             </div>
         </div>
-        <h2 id="more_about" align="center">More About Me </h2>
+        <h2 class="pt-5" id="more_about" align="center">More About Me </h2>
         <div style="display: flex;width: 100%;justify-content: center;">
-            <hr class="mb-4" width="10%">
+            <hr class="mb-4" width="16%">
         </div>
         <div class="row text-center">
             <div class="card p-5 mycard bg-dark" style="max-width: 25rem ;height: 30rem;">
                 <img src="logo/card1.png" alt="" class="card-img-top mt-4">
                 <h4 align="center" class="card-title mt-5">Creativity and Artistic Expression</h4>
-
             </div>
             <div class="card p-5 m-5 tech mycard bg-dark" style="max-width: 25rem;">
                 <h4 align="center" class="card-title pb-4">Technical Skills</h4>
@@ -152,53 +165,53 @@
                     programming languages, frameworks, and tools.
                 </div>
             </div>
-
             <div class="card p-5 mycard bg-dark" style="max-width: 25rem ;height: 30rem;">
                 <img src="logo/card3.png" alt="" class="card-img-top">
                 <h4 align="center" class="card-title mt-5">Web Development</h4>
-
             </div>
         </div>
-        <h2  class="mt-5 pt-5" >Contact</h2>
+        <h2 class="mt-5 pt-5">Contact</h2>
         <div style="display: flex;width: 100%;justify-content: center;">
-            <hr class="mb-4" width="10%">
+            <hr class="mb-4" width="11%">
         </div>
-        <div id="get_in_touch" class="row text-center px-3 my-5" >
-            <div class="col-md-4 card bg-transparent border-secondary py-5 mx-5" style="width: 30rem;">
-                    <h4 id="get_in_touch">GET IN TOUCH</h4>
-                        <div class="form-group my-3 mx-5">
-                        <input  type="text" class="form-control border-secondary mt-2 bg-transparent" required placeholder="Enter your Name" id="form_name"></div>
-                        <div class="form-froup my-3 mx-5">
-                        <input type="text" class="form-control border-secondary bg-transparent" required placeholder="Enter your Email-id" id="form_email"></div>
-                        <div class=" form-group my-3 mx-5">
-                            <textarea name="text_area" class="form-control border-secondary  bg-transparent"required placeholder="Your message..." id="get_text"></textarea>
-                        </div>
-                        <button  onclick="sendMail()" type="submit" class="btn-outline-light mt-4 mx-5 rounded send_bt" >Send</button>
+        <div id="get_in_touch" class="row text-center px-3 my-5">
+            <div class="col-md-4 card bg-transparent border-light py-5 mx-5" style="width: 30rem;">
+                <h6 id="get_in_touch">GET IN TOUCH</h6>
+                <div class="form-group my-3 mx-5">
+                    <input type="text" class="form-control border-light mt-2 bg-transparent" required
+                        placeholder="Enter your Name" id="form_name">
+                </div>
+                <div class="form-froup my-3 mx-5">
+                    <input type="text" class="form-control border-light bg-transparent" required
+                        placeholder="Enter your Email-id" id="form_email">
+                </div>
+                <div class=" form-group my-3 mx-5">
+                    <textarea rows="3" name="text_area" class="form-control border-light  bg-transparent" required
+                        placeholder="Your message..." id="get_text"></textarea>
+                </div>
+                <button onclick="sendMail()" type="submit"
+                    class="btn-outline-light mt-4 mx-5 rounded send_bt">Send</button>
             </div>
-            <div class="col-md-4 m-4 pt-3">               
-                 <img src="logo/email.png" alt="" class=" card-img-top img-fluid d-none d-md-block">
+            <div class="col-md-4 m-4 pt-3">
+                <img src="logo/email.png" alt="" class=" card-img-top img-fluid d-none d-md-block">
             </div>
         </div>
-
-
-
-        <footer style="font-size: 0.9rem;margin-top: 2rem; font-family: monospace;position: absolute;left: 0; right: 0;border-top: 1px solid rgb(70, 70, 70);" class="footer text-light bg-dark p-4">
-            &copy; Website is Crafted with HTML, Bootstrap, and a touch of JavaScript by Arghya.
+        <footer
+            style="font-size: 0.9rem;margin-top: 2rem; font-family: monospace;position: absolute;left: 0; right: 0;border-top: 1px solid rgb(255, 255, 255);"
+            class="footer text-light bg-dark p-4">
+            Website is Crafted with HTML, Bootstrap, and a touch of JavaScript by Arghya.
         </footer>
     </div>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-    console.log(1);
-   (function(){
-      emailjs.init("Y5AZR1xzTOCKbICCI");
-      console.log(2);
-   })();
-</script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        console.log(1);
+        (function () {
+            emailjs.init("Y5AZR1xzTOCKbICCI");
+            console.log(2);
+        })();
+    </script>
     <script src="js/bootstrap.js"></script>
     <script src="main.js"></script>
-
 </body>
 
 </html>

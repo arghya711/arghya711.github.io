@@ -1,64 +1,74 @@
-body{
-    background-image: url(img2.png);
+body {
+    background-image: url(logo/img2.png);
     padding: 0;
     background-attachment: fixed;
     margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
 }
-nav{
+
+nav {
     /* background-color: rgb(48, 48, 48); */
-    border-bottom: 1px solid rgb(92, 92, 92);
+    border-bottom: 1px solid rgb(252, 252, 252);
     box-shadow: 10px 1px 50px rgb(45, 45, 45);
 }
-.nav-item a{
+
+.nav-item a {
     margin-right: 2rem;
     color: white;
     font-size: 1.1rem;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
-.nav-item a:hover{
+
+.nav-item a:hover {
     color: rgb(0, 0, 0);
 }
-.mycontainer{
+
+.mycontainer {
     position: absolute;
-margin-top: 20%;
-padding: 5rem 2rem 0rem 2rem;
+    margin-top: 22%;
+    padding: 5rem 2rem 0rem 2rem;
 }
+
 .row {
     justify-content: center;
 }
-.aboutme{
+
+.aboutme {
     margin: 15rem 0.5rem 4rem 0.5rem;
     padding: 1rem;
 }
-.aboutme img{
+
+.aboutme img {
     padding: 0.5rem;
     border-radius: 100%;
 }
-.card-footer svg{
+
+.card-footer svg {
     margin: 1rem 1.5rem;
     color: white;
     transition: all 0.3s ease-in-out;
 }
-.card-footer svg:hover{
+
+.card-footer svg:hover {
     color: rgb(86, 169, 176);
 }
-.tech img{
+
+.tech img {
     width: 6rem;
     margin-bottom: 1rem;
 }
-#get_in_touch{
-    color: rgb(120, 120, 120);
+
+#get_in_touch {
+    color: rgb(214, 214, 214);
 }
-.btn-outline-light{
-    transition: all 0.3s ease-in-out;
+
+.btn-outline-light {
+    transition: all 0.1s ease-in-out;
     padding: 1rem;
     background-color: hsla(202, 21%, 31%, 0.634);
 }
-.btn-outline-light:hover{
+
+.btn-outline-light:hover {
     color: black;
 }
-
-
-
